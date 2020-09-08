@@ -13,7 +13,6 @@ The service's developers need your help getting some information from those logs
 
 # Input data (System Log)
 
-`
 Jan 31 00:09:39 ubuntu.local ticky: INFO Created ticket [#4217] (mdouglas)
 
 Jan 31 00:16:25 ubuntu.local ticky: INFO Closed ticket [#1754] (noel)
@@ -39,4 +38,10 @@ Jan 31 02:55:31 ubuntu.local ticky: ERROR Ticket doesn't exist (xlg)
 Jan 31 03:05:35 ubuntu.local ticky: ERROR Timeout while retrieving information (ahmed.miller)
 
 Jan 31 03:08:55 ubuntu.local ticky: ERROR Ticket doesn't exist (blossom)
-`
+
+# Output 
+Two csv file 
+
+First one ERROR Name and No of times each ERROR Occured 
+
+second CSV file contain  No of times INFO is genrated and No of time ERROR is generated for each User 
